@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "09ca072d-8966-4736-b415-393612fe2bf3",
+		"name": "CURSOS-API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9024922"
+	},
+	"item": [
+		{
+			"name": "AllCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_base}}/cursos/listar",
+					"host": [
+						"{{node_base}}"
+					],
+					"path": [
+						"cursos",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OneCourse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{node_base}}/cursos/mostrar/2",
+					"host": [
+						"{{node_base}}"
+					],
+					"path": [
+						"cursos",
+						"mostrar",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewCourse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"JavaScript Moderno: Guía para dominar el lenguaje\",\r\n    \"descripcion\":\"Bienvenido al curso de JavaScript moderno. El objetivo principal del curso es enseñarte JavaScript actual, empezando de cero conocimiento en JavaScript hasta llevarte a un nivel avanzado y competitivo en el mercado laboral actual.\",\r\n    \"precios\": 1350.9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{node_base}}/cursos/crear",
+					"host": [
+						"{{node_base}}"
+					],
+					"path": [
+						"cursos",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditCourse",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"TypeScript: Tu completa guía y manual de mano.\",\r\n    \"descripcion\":\"TypeScript es uno de los lenguajes de programación web que debes de aprender ya que esta tomando mucha fuerza en el mundo.\",\r\n    \"precios\": 1462.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{node_base}}/cursos/actualizar/2",
+					"host": [
+						"{{node_base}}"
+					],
+					"path": [
+						"cursos",
+						"actualizar",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCourse",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{node_base}}/cursos/eliminar/6",
+					"host": [
+						"{{node_base}}"
+					],
+					"path": [
+						"cursos",
+						"eliminar",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

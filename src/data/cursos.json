@@ -9,9 +9,9 @@
     },
     {
       "id": 2,
-      "nombre": "React - The Complete Guide (incl Hooks, React Router, Redux)",
-      "descripcion": "This course is fully up-to-date with React 18 (the latest version of React)!",
-      "precios": 1500
+      "nombre": "TypeScript: Tu completa guía y manual de mano.",
+      "descripcion": "TypeScript es uno de los lenguajes de programación web que debes de aprender ya que esta tomando mucha fuerza en el mundo.",
+      "precios": 1462.5
     },
     {
       "id": 3,
