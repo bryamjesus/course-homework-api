@@ -23,4 +23,8 @@ router.put('/actualizar/:id', (require, response) => {
   response.json(resp)
 })
 
+router.delete('/eliminar/:id', (require, response) => {
+  const resp = controller.deleteOneCourse(require.params.id)
+  response.json(resp)
+})
 module.exports = router

@@ -1,17 +1,11 @@
 {
-  "nextID": 5,
+  "nextID": 4,
   "cursos": [
     {
       "id": 1,
       "nombre": "Git y Github - Básico",
       "descripcion": "Aprende uno de los softwares más utilizados en la industria hoy en dia. Git y Github son software especializados en el control de versiones",
       "precios": 200
-    },
-    {
-      "id": 2,
-      "nombre": "Curso FullStack",
-      "descripcion": "Aprenderas HTML5, CSS3, JavaScript y Java con Spring para el backend de 0 a intermedio",
-      "precios": 1790.6
     },
     {
       "id": 3,

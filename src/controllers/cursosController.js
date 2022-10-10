@@ -48,7 +48,7 @@ const createNewCourse = ({ nombre, descripcion, precios }) => {
 
 const updateOneCourse = (id, changes) => {
   const { cursos, nextID } = DB('cursos')
-  const indexCourse = cursos.findIndex((course) => course.id === Number(id) )
+  const indexCourse = cursos.findIndex((course) => course.id === Number(id))
 
   if (indexCourse === -1) {
     return ({
@@ -64,7 +64,7 @@ const updateOneCourse = (id, changes) => {
   cursos[indexCourse] = updateCourse
 
   const newData = {
-    nextID: nextID + 1,
+    nextID,
     cursos
   }
 
@@ -72,9 +72,31 @@ const updateOneCourse = (id, changes) => {
   return updateCourse
 }
 
+const deleteOneCourse = (id) => {
+  const { cursos, nextID } = DB('cursos')
+  const indexCourse = cursos.findIndex((course) => course.id === Number(id))
+
+  if (indexCourse === -1) {
+    return ({
+      error: '¡Curso para eliminar no encontrado!'
+    })
+  }
+
+  const deleteCourse = cursos.splice(indexCourse, 1)
+
+  const newData = {
+    nextID,
+    cursos
+  }
+  fs.writeFileSync('./src/data/cursos.json', JSON.stringify(newData, null, 2))
+
+  return ({ 'respuesta': `El curso ${deleteCourse[0].nombre} a sido eliminado` })
+}
+
 module.exports = {
   getAllCourses,
   getOneCourse,
   createNewCourse,
-  updateOneCourse
+  updateOneCourse,
+  deleteOneCourse
 }
