@@ -1,0 +1,23 @@
+{
+  "nextID": 4,
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Java Web",
+      "descripcion": "Aprenderas Java Web de 0 a intermedio",
+      "precios": 1290.6
+    },
+    {
+      "id": 2,
+      "nombre": "Curso FullStack",
+      "descripcion": "Aprenderas HTML5, CSS3, JavaScript y Java con Spring para el backend de 0 a intermedio",
+      "precios": 1790.6
+    },
+    {
+      "id": 3,
+      "nombre": "Master en Python 3.x. Aprende de 0 a EXPERTO con Práctica.",
+      "descripcion": "Aprende Python, donde iniciamos desde 0, sin conocimientos previos hasta desarrollar aplicaciones con mucha practica!",
+      "precios": 540.9
+    }
+  ]
+}
