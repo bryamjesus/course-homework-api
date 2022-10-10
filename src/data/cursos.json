@@ -1,11 +1,11 @@
 {
-  "nextID": 8,
+  "nextID": 7,
   "cursos": [
     {
       "id": 1,
-      "nombre": "Git y Github - Básico",
-      "descripcion": "Aprende uno de los softwares más utilizados en la industria hoy en dia. Git y Github son software especializados en el control de versiones",
-      "precios": 550
+      "nombre": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+      "descripcion": "Este curso te llevará de la mano partiendo desde cero hasta tener más de lo que necesitas para trabajar con Git, adicionalmente aprenderás a utilizar GitHub como un repositorio remoto, incluyendo formas de trabajar en equipo, flujos de trabajo, tokens, Pull Request y otros temas avanzados que serán de mucha utilidad en tu vida profesional.",
+      "precios": 1412.5
     },
     {
       "id": 2,
@@ -30,12 +30,6 @@
       "nombre": "Node: De cero a experto",
       "descripcion": "Es muy posible que si llegaste al curso es porque alguien te mencionó sobre Node, alguien lo usa o bien tienes curiosidad de lo que Node puede hacer... aquí aprenderemos muchas cosas que te explicarán porque Node están popular hoy en día.",
       "precios": 1205.9
-    },
-    {
-      "id": 7,
-      "nombre": "JavaScript Moderno: Guía para dominar el lenguaje",
-      "descripcion": "Bienvenido al curso de JavaScript moderno. El objetivo principal del curso es enseñarte JavaScript actual, empezando de cero conocimiento en JavaScript hasta llevarte a un nivel avanzado y competitivo en el mercado laboral actual.",
-      "precios": 1350.9
     }
   ]
 }
