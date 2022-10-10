@@ -1,7 +1,7 @@
 {
   "name": "cursos-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/bryamjesus/course-homework-api",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js",
