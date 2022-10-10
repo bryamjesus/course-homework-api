@@ -48,7 +48,7 @@ const createNewCourse = ({ nombre, descripcion, precios }) => {
 
 const updateOneCourse = (id, changes) => {
   const { cursos, nextID } = DB('cursos')
-  const indexCourse = cursos.findIndex((course) => { course.id === Number(id) })
+  const indexCourse = cursos.findIndex((course) => course.id === Number(id) )
 
   if (indexCourse === -1) {
     return ({
@@ -56,10 +56,20 @@ const updateOneCourse = (id, changes) => {
     })
   }
 
-  
+  const updateCourse = {
+    ...cursos[indexCourse],
+    ...changes
+  }
 
+  cursos[indexCourse] = updateCourse
 
-  return ({ kdsaj: 'dsjafh' })
+  const newData = {
+    nextID: nextID + 1,
+    cursos
+  }
+
+  fs.writeFileSync('./src/data/cursos.json', JSON.stringify(newData, null, 2))
+  return updateCourse
 }
 
 module.exports = {

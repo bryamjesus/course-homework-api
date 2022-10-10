@@ -1,11 +1,11 @@
 {
-  "nextID": 4,
+  "nextID": 5,
   "cursos": [
     {
       "id": 1,
-      "nombre": "Java Web",
-      "descripcion": "Aprenderas Java Web de 0 a intermedio",
-      "precios": 1290.6
+      "nombre": "Git y Github - Básico",
+      "descripcion": "Aprende uno de los softwares más utilizados en la industria hoy en dia. Git y Github son software especializados en el control de versiones",
+      "precios": 200
     },
     {
       "id": 2,
