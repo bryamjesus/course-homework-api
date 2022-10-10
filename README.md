@@ -13,3 +13,6 @@
 
 ## Editar un curso
 ![Editar un curso](src/assets/img/updateOneCourse.png)
+
+## Eliminar un curso
+![Eliminar un curso](src/assets/img/deleteOneCourse.png)
