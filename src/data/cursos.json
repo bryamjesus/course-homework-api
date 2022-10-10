@@ -1,17 +1,35 @@
 {
-  "nextID": 4,
+  "nextID": 7,
   "cursos": [
     {
       "id": 1,
       "nombre": "Git y Github - Básico",
       "descripcion": "Aprende uno de los softwares más utilizados en la industria hoy en dia. Git y Github son software especializados en el control de versiones",
-      "precios": 200
+      "precios": 550
+    },
+    {
+      "id": 2,
+      "nombre": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      "descripcion": "This course is fully up-to-date with React 18 (the latest version of React)!",
+      "precios": 1500
     },
     {
       "id": 3,
       "nombre": "Master en Python 3.x. Aprende de 0 a EXPERTO con Práctica.",
       "descripcion": "Aprende Python, donde iniciamos desde 0, sin conocimientos previos hasta desarrollar aplicaciones con mucha practica!",
       "precios": 540.9
+    },
+    {
+      "id": 4,
+      "nombre": "React: De cero a experto ( Hooks y MERN )",
+      "descripcion": "Este curso tiene por objetivo llevarte de cero conocimiento de React hasta un nivel competitivo en el ambiente laboral de hoy en día. Este curso está construido 100% en Hooks y functional components.",
+      "precios": 462.5
+    },
+    {
+      "id": 5,
+      "nombre": "Node: De cero a experto",
+      "descripcion": "Es muy posible que si llegaste al curso es porque alguien te mencionó sobre Node, alguien lo usa o bien tienes curiosidad de lo que Node puede hacer... aquí aprenderemos muchas cosas que te explicarán porque Node están popular hoy en día.",
+      "precios": 1205.9
     }
   ]
 }

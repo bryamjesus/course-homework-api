@@ -9,7 +9,7 @@ router.get('/listar', (require, response) => {
 
 router.get('/mostrar/:id', (require, response) => {
   const { id } = require.params;
-  const resp = controller.getOneCourses(id)
+  const resp = controller.getOneCourse(id)
   response.json(resp)
 })
 

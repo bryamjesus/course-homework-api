@@ -12,7 +12,7 @@ const getOneCourse = (id) => {
   const course = cursos.find((course) => course.id === Number(id))
 
   if (!course) {
-    return ({ error: 'No se encontro' })
+    return ({ error: '¡Curso no encontrado!' })
   }
 
   return course;
