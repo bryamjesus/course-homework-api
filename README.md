@@ -11,5 +11,5 @@
 ## Editar un curso
 ![Editar un curso](src/assets/img/updateOneCourse.png)
 
-## 
+## Editar un curso
 ![Editar un curso](src/assets/img/updateOneCourse.png)
