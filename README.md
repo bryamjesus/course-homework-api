@@ -1,4 +1,10 @@
 # Tarea: API de Cursos
+Descargue el proyecto y utilice el siguiente comando
+
+```bash
+npm install
+```
+
 ## Listar todos los cursos
 ![Todos los cursos](src/assets/img/getAllCourses.png)
 
